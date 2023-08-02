@@ -1,1 +1,1 @@
-# linked-lists
+This is a linked list data structure.
