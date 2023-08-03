@@ -1,9 +1,4 @@
-const nodeFactory = (value, next = null) => {
-  this.value = value;
-  this.next = next;
-
-  return { value, next };
-};
+const nodeFactory = (value, next = null) => ({ value, next });
 
 const linkedList = () => {
   // Create head node
